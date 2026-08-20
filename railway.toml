@@ -1,2 +1,6 @@
+[build]
+builder = "RAILPACK"
+
 [deploy]
-  cronSchedule = "0 0 1 * *"   # Runs at midnight UTC on the 1st of every month
+startCommand = "python main.py"
+cronSchedule = "0 0 1 * *"
